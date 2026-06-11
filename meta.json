@@ -1,0 +1,46 @@
+{
+  "name": "Optimiseur d'Espaces Verts Urbains Modulaires",
+  "description": "Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l",
+  "theme": "tool",
+  "design_theme": "mechanical-botanical",
+  "structure_preset": "bento-signal",
+  "render_direction": "signal-bento",
+  "page_blueprint": "signal-matrix",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://optimiseur-d-espaces-verts-urbains-modulaires-2.onrender.com",
+  "created": "2026-06-11T01:31:42.211093+00:00",
+  "owner_user_id": "user-1774825923424-663",
+  "owner_username": "inso",
+  "owner_display_name": "Inso",
+  "provider_space_id": "new-sites",
+  "provider_space_name": "New Sites",
+  "status": "generated",
+  "run_id": "run-1781141190538",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: badges",
+    "Design theme: Mechanical Botanical",
+    "Render direction: Signal Bento",
+    "Page blueprint: Signal Matrix",
+    "Runtime mode: analysis_tool",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
