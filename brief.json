@@ -1,0 +1,294 @@
+{
+  "run_id": "run-1781141190538",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Aide les citadins à concevoir des espaces verts fonctionnels et esthétiques en s'appuyant sur des éléments mo…",
+    "notes": "Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l'agencement.\nCible les particuliers, les associations de quartier et les urbanistes. Le thème 'Mechanical Botanical' évoque l'alliance de la nature et de la technologie. La structure 'bento-signal' offre une visualisation claire et organisée des modules.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "tool",
+      "calculator"
+    ],
+    "forced_design_theme": "mechanical-botanical",
+    "forced_structure_preset": "bento-signal",
+    "site_idea_title": "Optimiseur d'Espaces Verts Urbains Modulaires",
+    "site_idea_summary": "Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l'agencement."
+  },
+  "site_spec": {
+    "slug": "optimiseur-d-espaces-verts-urbains-modulaires-2",
+    "theme": {
+      "name": "Mechanical Botanical",
+      "slug": "mechanical-botanical",
+      "eyebrow": "Organic Systems",
+      "family": "mechanical-botanical",
+      "moods": [
+        "organic",
+        "futuristic",
+        "balanced",
+        "fresh"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "eco tools",
+        "wellness tools",
+        "sustainability",
+        "travel tools",
+        "consumer utility"
+      ],
+      "keywords": [
+        "organic",
+        "tech",
+        "botanical",
+        "iridescent",
+        "fresh"
+      ],
+      "token_index": [
+        "balanced",
+        "botanical",
+        "calculator",
+        "consumer",
+        "eco",
+        "fresh",
+        "futuristic",
+        "generator",
+        "iridescent",
+        "mechanical",
+        "organic",
+        "sustainability",
+        "systems",
+        "tech",
+        "tool",
+        "tools",
+        "travel",
+        "utility",
+        "wellness"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Manrope\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "22px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #081c15 0%, #1b4332 42%, #c7f9cc 100%)",
+        "surface": "rgba(8, 28, 21, 0.74)",
+        "surface_border": "rgba(128,237,153,0.18)",
+        "text": "#f1fff4",
+        "muted": "#b7e4c7",
+        "accent": "#80ed99",
+        "accent_alt": "#72ddf7",
+        "hero_glow": "rgba(128, 237, 153, 0.18)",
+        "button_text": "#062012",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 88px rgba(4, 12, 8, 0.34)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Bento Signal",
+      "slug": "bento-signal",
+      "hero_variant": "command",
+      "proof_variant": "badges",
+      "section_order": [
+        "proof",
+        "features",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "modular-grid",
+      "moods": [
+        "modular",
+        "curated",
+        "technical"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "ai tools",
+        "dashboards",
+        "productivity",
+        "research"
+      ],
+      "keywords": [
+        "bento",
+        "cards",
+        "signal",
+        "system"
+      ],
+      "token_index": [
+        "badges",
+        "bento",
+        "calculator",
+        "cards",
+        "command",
+        "curated",
+        "dashboards",
+        "faq",
+        "features",
+        "generator",
+        "grid",
+        "modular",
+        "productivity",
+        "proof",
+        "research",
+        "seo",
+        "signal",
+        "system",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "signal-matrix",
+    "page_blueprint_name": "Signal Matrix",
+    "title": "Optimiseur d'Espaces Verts Urbains Modulaires",
+    "tagline": "Imaginez, Concevez, Réalisez : Votre Espace Vert Urbain sur Mesure",
+    "description": "Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Générer ma proposition",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Générer ma proposition",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "console",
+    "faq_topic": "Optimiseur d'Espaces Verts Urbains Modulaires",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Optimiseur d'Espaces Verts Urbains Modulaires ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Optimiseur d'Espaces Verts Urbains Modulaires et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Optimiseur d&#x27;Espaces Verts Urbains Modulaires | Imaginez, Concevez, Réalisez : Votre Espace Vert Urbain sur Mesure</title>\n    <meta name=\"description\" content=\"Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l\">\n    <style>\n        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif; background-color: #1a1a1a; color: #e0e0e0; display: flex; flex-direction: column; min-height: 100vh; font-size: 16px; line-height: 1.6; }\n        .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 20px 0; }\n        header { background-color: #2a2a2a; padding: 20px 0; border-bottom: 1px solid #3a3a3a; }\n        header h1 { margin: 0; color: #00ffcc; text-align: center; font-size: 2.5em; font-weight: 600; }\n        .hero { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 60px 0; background-color: #1a1a1a; border-bottom: 1px solid #3a3a3a; }\n        .hero h2 { color: #00ccff; font-size: 2em; margin-bottom: 20px; }\n        .hero p { max-width: 800px; font-size: 1.1em; color: #b0b0b0; }\n        .main-content { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; padding: 40px 0; }\n        .sidebar { background-color: #2a2a2a; padding: 30px; border-radius: 8px; border: 1px solid #3a3a3a; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }\n        .tool-area { background-color: #1a1a1a; padding: 30px; border-radius: 8px; border: 1px solid #3a3a3a; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }\n        h3 { color: #00ffcc; margin-top: 0; font-size: 1.5em; }\n        form label { display: block; margin-bottom: 8px; color: #00ccff; font-weight: bold; }\n        form select, form input[type=\"number\"] { width: calc(100% - 20px); padding: 10px; margin-bottom: 20px; background-color: #3a3a3a; border: 1px solid #5a5a5a; color: #e0e0e0; border-radius: 4px; }\n        form button { background-color: #00ffcc; color: #1a1a1a; padding: 12px 25px; border: none; border-radius: 4px; cursor: pointer; font-size: 1.1em; font-weight: bold; transition: background-color 0.3s ease; }\n        form button:hover { background-color: #00e6b8; }\n        .result-area { margin-top: 30px; padding-top: 20px; border-top: 1px solid #3a3a3a; }\n        .result-area h4 { color: #00ccff; font-size: 1.3em; margin-bottom: 15px; }\n        .result-area pre { background-color: #3a3a3a; padding: 15px; border-radius: 4px; overflow-x: auto; color: #e0e0e0; font-family: monospace; border: 1px solid #5a5a5a; }\n        .bento-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 40px; }\n        .bento-item { background-color: #2a2a2a; padding: 25px; border-radius: 8px; border: 1px solid #3a3a3a; box-shadow: 0 2px 5px rgba(0,0,0,0.2); text-align: center; }\n        .bento-item h4 { color: #00ffcc; font-size: 1.2em; margin-bottom: 10px; }\n        .bento-item p { color: #b0b0b0; font-size: 0.95em; }\n        .seo-section { background-color: #222222; padding: 40px 0; border-top: 1px solid #3a3a3a; color: #b0b0b0; text-align: center; font-size: 0.9em; }\n        .seo-section h3 { color: #00ccff; font-size: 1.8em; margin-bottom: 20px; }\n        .seo-section p { max-width: 900px; margin: 0 auto 15px auto; }\n        .seo-section ul { list-style: none; padding: 0; display: inline-block; text-align: left; margin-top: 20px; }\n        .seo-section li { margin-bottom: 8px; color: #888; }\n        .seo-section li strong { color: #00ffcc; }\n        footer { background-color: #1a1a1a; color: #888; text-align: center; padding: 20px 0; border-top: 1px solid #3a3a3a; font-size: 0.9em; }\n\n        @media (max-width: 768px) {\n            .main-content { grid-template-columns: 1fr; }\n            .hero h1 { font-size: 2em; }\n            .hero h2 { font-size: 1.5em; }\n            header h1 { font-size: 2em; }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://optimiseur-d-espaces-verts-urbains-modulaires-2.onrender.com\">\n    <meta property=\"og:title\" content=\"Optimiseur d&#x27;Espaces Verts Urbains Modulaires\">\n    <meta property=\"og:description\" content=\"Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l\">\n    <meta property=\"og:url\" content=\"https://optimiseur-d-espaces-verts-urbains-modulaires-2.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Optimiseur d'Espaces Verts Urbains Modulaires\", \"description\": \"Planifiez des jardins communautaires ou personnels en choisissant des modules pré-conçus (potagers, zones de repos, etc.) et en visualisant l\", \"url\": \"https://optimiseur-d-espaces-verts-urbains-modulaires-2.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"optimiseur-d-espaces-verts-urbains-modulaires-2\" data-runtime-mode=\"analysis_tool\">\n    <header>\n        <div class=\"container\">\n            <h1>Optimiseur d'Espaces Verts Urbains Modulaires</h1>\n        </div>\n    </header>\n\n    <section class=\"hero\">\n        <div class=\"container\">\n            <h2>Imaginez, Concevez, Réalisez : Votre Espace Vert Urbain sur Mesure</h2>\n            <p>Planifiez facilement des jardins communautaires ou personnels, des micro-fermes urbaines aux zones de détente, en assemblant des modules pré-conçus. Visualisez votre projet avant de le concrétiser.</p>\n        </div>\n    </section>\n\n    <section class=\"container main-content\">\n        <div class=\"sidebar\">\n            <h3>Commencez votre projet</h3>\n            <p>Définissez les paramètres de votre espace. L'alliance de la nature et de la technologie au service de votre vision.</p>\n            <form id=\"tool-form\">\n                <label for=\"type_espace\">Type d'espace :</label>\n                <select id=\"type_espace\" name=\"type_espace\" required>\n                    <option value=\"communautaire\">Jardin Communautaire</option>\n                    <option value=\"personnel\">Jardin Personnel</option>\n                    <option value=\"entreprise\">Espace Vert d'Entreprise</option>\n                    <option value=\"public\">Aménagement Public</option>\n                </select>\n\n                <label for=\"taille_surface\">Taille de la surface (m²) :</label>\n                <input type=\"number\" id=\"taille_surface\" name=\"taille_surface\" min=\"10\" max=\"1000\" value=\"50\" required>\n\n                <label for=\"modules_inclure\">Modules principaux à inclure :</label>\n                <select id=\"modules_inclure\" name=\"modules_inclure\" multiple required style=\"min-height: 120px;\">\n                    <option value=\"potager_intensif\">Potager Intensif</option>\n                    <option value=\"zone_repos\">Zone de Repos & Lecture</option>\n                    <option value=\"fleurs_ornementales\">Jardin de Fleurs Ornementales</option>\n                    <option value=\"aire_jeux_enfants\">Aire de Jeux pour Enfants</option>\n                    <option value=\"point_eau\">Point d'Eau / Bassin</option>\n                    <option value=\"compost_partage\">Compost Partagé</option>\n                    <option value=\"arbres_fruitiers\">Mini-Verger</option>\n                </select>\n\n                <button type=\"submit\" id=\"tool-submit\">Générer ma proposition</button>\n            </form>\n        </div>\n\n        <div class=\"tool-area\">\n            <h3>Votre visualisation 'Bento Signal'</h3>\n            <p>Une proposition d'agencement clair et optimisé. Chaque module s'intègre harmonieusement pour maximiser l'efficacité et l'esthétique de votre espace.</p>\n            <div id=\"tool-result\" class=\"result-area\">\n                <h4>Aperçu de votre Agencement :</h4>\n                <pre id=\"agencement-result\">Votre proposition d'aménagement apparaîtra ici après avoir cliqué sur \"Générer ma proposition\".</pre>\n                <div class=\"bento-grid\" id=\"bento-visualisation\">\n                    <!-- Bento items will be generated here -->\n                </div>\n            </div>\n            <button data-affiliate-slot=\"contact-expert\" style=\"background-color: #00ccff; margin-top: 30px;\">Besoin d'un accompagnement personnalisé ?</button>\n        </div>\n    </section>\n\n    <section class=\"container bento-grid\">\n        <div class=\"bento-item\">\n            <h4>Modularité Avancée</h4>\n            <p>Choisissez parmi une bibliothèque de modules pour construire un jardin unique, adapté à vos besoins spécifiques.</p>\n        </div>\n        <div class=\"bento-item\">\n            <h4>Optimisation Spatiale</h4>\n            <p>Notre algorithme suggère l'agencement le plus fonctionnel pour tirer le meilleur parti de chaque mètre carré.</p>\n        </div>\n        <div class=\"bento-item\">\n            <h4>Esthétique & Durabilité</h4>\n            <p>Des designs modernes et respectueux de l'environnement, pensés pour la beauté et la résilience urbaine.</p>\n        </div>\n        <div class=\"bento-item\">\n            <h4>Pour Tous les Projets</h4>\n            <p>Que vous soyez un particulier, une association ou un urbaniste, trouvez la solution qui vous correspond.</p>\n        </div>\n    </section>\n\n    <section class=\"seo-section\">\n        <div class=\"container\">\n            <h3>Découvrez le futur du jardinage urbain en France</h3>\n            <p>Notre plateforme est le <strong style=\"color: #00ffcc;\">leader français</strong> pour la conception d'espaces verts modulaires. Que vous recherchiez un <strong style=\"color: #00ccff;\">logiciel aménagement jardin gratuit</strong>, des <strong style=\"color: #00ffcc;\">idées jardin urbain</strong> ou un <strong style=\"color: #00ccff;\">plan potager communautaire</strong>, notre outil vous offre une solution innovante. Visualisez votre <strong style=\"color: #00ffcc;\">jardin partagé</strong>, optimisez votre <strong style=\"color: #00ccff;\">balcon potager</strong> ou concevez un <strong style=\"color: #00ffcc;\">espace vert d'entreprise</strong> avec facilité. Fini les approximations, place à la précision et à l'esthétique \"Mechanical Botanical\".</p>\n            <p>Rejoignez les <strong style=\"color: #00ffcc;\">citadins écologiques</strong>, les <strong style=\"color: #00ccff;\">associations de quartier</strong> et les <strong style=\"color: #00ffcc;\">municipalités</strong> qui transforment nos villes. Trouvez des solutions pour l'aménagement paysager, des conseils pour un <strong style=\"color: #00ccff;\">jardin résilient</strong> et des <strong style=\"color: #00ffcc;\">plans d'aménagement extérieur</strong> adaptés à la réalité urbaine française. Notre outil est votre allié pour un <strong style=\"color: #00ccff;\">développement durable en ville</strong> et la création d'îlots de fraîcheur verdoyants.</p>\n        </div>\n    </section>\n\n    <footer>\n        <div class=\"container\">\n            <p>&copy; 2023 Optimiseur d'Espaces Verts Urbains Modulaires. Tous droits réservés.</p>\n        </div>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const typeEspace = document.getElementById('type_espace').value;\n            const tailleSurface = document.getElementById('taille_surface').value;\n            const modulesSelectionnes = Array.from(document.getElementById('modules_inclure').selectedOptions).map(option => option.value);\n\n            let agencementText = `Projet : ${typeEspace.charAt(0).toUpperCase() + typeEspace.slice(1)}\\n`;\n            agencementText += `Surface : ${tailleSurface} m²\\n\\n`;\n            agencementText += `Modules proposés :\\n`;\n\n            const descriptionsModules = {\n                potager_intensif: \"Un module pour la production de légumes et herbes aromatiques en haute densité.\",\n                zone_repos: \"Un espace de détente avec bancs, ombrage et éventuellement une petite fontaine.\",\n                fleurs_ornementales: \"Un jardin fleuri pour la biodiversité et l'esthétique, attractif pour les pollinisateurs.\",\n                aire_jeux_enfants: \"Un petit espace sécurisé avec des jeux pour les enfants (selon taille de la surface).\",\n                point_eau: \"Un élément aquatique pour la fraîcheur, la biodiversité et l'ambiance sonore.\",\n                compost_partage: \"Zone dédiée au compostage collectif, essentielle pour le cycle des nutriments.\",\n                arbres_fruitiers: \"Quelques arbres fruitiers nains ou en espalier pour une récolte locale.\"\n            };\n\n            const bentoContainer = document.getElementById('bento-visualisation');\n            bentoContainer.innerHTML = ''; // Clear previous visualizations\n\n            if (modulesSelectionnes.length === 0) {\n                agencementText += \"Aucun module principal sélectionné. Veuillez en choisir au moins un.\\n\";\n            } else {\n                modulesSelectionnes.forEach(module => {\n                    agencementText += `- ${module.replace(/_/g, ' ').toUpperCase()}: ${descriptionsModules[module]}\\n`;\n\n                    const bentoItem = document.createElement('div');\n                    bentoItem.classList.add('bento-item');\n                    const title = document.createElement('h4');\n                    title.textContent = module.replace(/_/g, ' ').toUpperCase();\n                    const description = document.createElement('p');\n                    description.textContent = descriptionsModules[module];\n                    bentoItem.appendChild(title);\n                    bentoItem.appendChild(description);\n                    bentoContainer.appendChild(bentoItem);\n                });\n            }\n\n            // Simple logic for overall layout suggestion\n            if (typeEspace === 'communautaire' && tailleSurface >= 50 && modulesSelectionnes.includes('potager_intensif')) {\n                agencementText += \"\\nSuggestion générale : Zone potagère centrale, espaces de repos périphériques, compost et point d'eau intégrés. Circulation fluide privilégiée.\";\n            } else if (typeEspace === 'personnel' && tailleSurface < 50) {\n                agencementText += \"\\nSuggestion générale : Optimisation verticale, modules compacts et multifonctionnels. Privilégier un espace de détente et un mini-potager.\";\n            } else if (typeEspace === 'entreprise') {\n                agencementText += \"\\nSuggestion générale : Création d'espaces de pause verdoyants, intégrant des éléments esthétiques et de bien-être pour les employés.\";\n            } else if (typeEspace === 'public') {\n                agencementText += \"\\nSuggestion générale : Conception robuste et durable, favorisant l'accès et l'interaction pour tous les usagers. Intégration d'éléments éducatifs si applicable.\";\n            }\n\n            document.getElementById('agencement-result').textContent = agencementText;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
